@@ -1,4 +1,14 @@
- 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+#Time_Compolexity: O(n)
+#Space_Complexity: O(n)
+
+class Solution:
+    def isValidBST(self, root: TreeNode) -> bool:
         #declaring a result array
         self.result=[]
         self.inorder(root)
